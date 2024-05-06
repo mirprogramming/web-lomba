@@ -1,0 +1,70 @@
+.section-jumbotron {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.jumbotron h1,
+.jumbotron .lead,
+.jumbotron .btn {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+
+.section-tentang {
+    background-image: url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+  }
+  .section-tentang::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .section-tentang-content {
+    position: relative;
+    z-index: 1;
+  }
+  .section-tentang-content h1, h2,
+  .section-tentang-content p {
+    color: #ffffff; /* Text color */
+  }
+
+  .section-hadiah {
+    height: 50vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .section-cta {
+    background-image: url('https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+  }
+  .section-cta::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .cta-content {
+    position: relative;
+    z-index: 1;
+  }
+  .cta-content h1, h2,
+  .cta-content p {
+    color: #ffffff; /* Text color */
+  }
